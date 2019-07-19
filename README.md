@@ -1,8 +1,17 @@
 # sinoui-hooks
 
-这是由[ts-lib-scripts](https://github.com/sinoui/ts-lib-scripts)创建的TypeScript库项目。
+这是由[ts-lib-scripts](https://github.com/sinoui/ts-lib-scripts)创建的 TypeScript 库项目。
+
+用于收集通用性 hooks,与任何 UI 库无关
 
 ## 本地开发
+
+### 开发规范说明
+
+1. 使用命令行新建项目模块
+2. 所有 hooks 及 hooks 中的方法都必须有注释和必需的类型声明
+3. 所有 hooks 都要按照[接口 API 文档规范](https://sinoui.github.io/sinoui-guide/docs/doc-of-api-standard)编写文档
+4. hooks 相关文档编写时，如果涉及使用场景，需要可运行的示例
 
 项目中有以下有用的命令。
 
